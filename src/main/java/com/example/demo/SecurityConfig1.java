@@ -14,6 +14,7 @@ public class SecurityConfig1 {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+
         http
                 // Configure which requests are allowed without authentication
                 .authorizeHttpRequests(auth -> auth
