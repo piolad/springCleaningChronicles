@@ -33,16 +33,16 @@ public class DemoApplication {
 		return "hi";
 	}
 
-	@GetMapping("public/students")
-	public List<Student> students(){
-		return List.of(
-				new Student(
-						1L,
-						"Mariam",
-						21,
-						LocalDate.of(2001,5, 10),
-						"Mariam.jamal@gmail.com"
-						)
-		);
-	}
+//	@GetMapping("public/students")
+//	public List<Student> students(){
+//		return List.of(
+//				new Student(
+//						1L,
+//						"Mariam",
+//						21,
+//						LocalDate.of(2001,5, 10),
+//						"Mariam.jamal@gmail.com"
+//						)
+//		);
+//	}
 }
